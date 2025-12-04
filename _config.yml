@@ -3,17 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Kairosxy思想黑洞
 subtitle: ''
-description: ''
+description: '技术、生活与意识边界的记录'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - 技术
+  - 生活
+  - 随想
+author: Kairosxy
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://kairosxy.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
