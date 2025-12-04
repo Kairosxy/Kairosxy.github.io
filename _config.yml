@@ -3,25 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kairosxy思想黑洞
-subtitle: ''
-description: '技术、生活与意识边界的记录'
+title: 小小的思想黑洞
+subtitle: '在日常里观测意识的微光'
+description: '不严肃的技术笔记，半认真的人生随想，和一些刚好想起的故事。'
 keywords:
   - 技术
   - 生活
   - 随想
-author: Kairosxy
+author: Kairos
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://kairosxy.github.io
+url: https://kairosxy.cn/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false
+  trailing_html: false
 
 # Directory
 source_dir: source
@@ -43,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -68,7 +67,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: 随笔
 category_map:
 tag_map:
 
